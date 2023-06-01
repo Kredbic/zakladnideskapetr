@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="cz">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Základní deska</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="neco.css">
+</head>
+<body>
+    <header class="MENU">
+         <div class="topnav" id="myTopnav">
+            <a href="index.html" class="active">Home</a>
+            <a href="videa.html">Vlastnosti</a>
+            <a href="Historie.html">Historie</a>
+            <a href="Soucasnost.html">Současnost</a>
+            <a href="Zajímavosti.html">Zajímavosti</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+
+          <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+            </script>
+    </header>
+
+    <div class="image">
+      <br>
+      <br>
+      <br>
+      <br>
+      <h1 class="big"> Základová deska </h1>
+    </div>
+
+    <div class="onas">
+        
+      <div class="snadpis"><b> Informace o stránce </b></div>
+      <div class="onasflex">   
+          <div class="kid" >
+            <h1> Historie </h1>
+            <p>  V této části se dozvíte o historickém vývoji základních desek, klíčových inovacích a jejich přínosu.</p>
+          </div>
+          <div class="kid">
+            <h1> Současnost </h1>
+            <p> Tato část se zaměřuje na současný stav základních desek a některé zajímavé aspekty spojené s touto technologií.</p>
+          </div>
+          <div class="kid">
+            <h1> Vlastnosti </h1>
+            <p> Zde se objasňuje účel základní desky a její role při propojení a správě různých komponentů počítače.</p>
+        </div>
+      </div> 
+    </div>
+
+    <footer>
+      <div> Vytvořil : Petr Kredba </div>
+    </footer>
+
+
+
+
+</body>
+</html>
